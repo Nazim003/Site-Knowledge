@@ -10,6 +10,7 @@ print("\033[96m")
 print("Tools name is 'Site Knowledge'")
 print("\033[98m")
 url =raw_input("Enter your full website link with https : ")
+
 url.rstrip ( )
 header = urllib2.urlopen (url) .info( )
 print(str(header))
