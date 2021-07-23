@@ -13,6 +13,9 @@ url =raw_input("Enter your full website link with https : ")
 url.rstrip ( )
 header = urllib2.urlopen (url) .info( )
 print(str(header))
-
-
-
+except:
+  print(error + "No Internet connection")
+  exit
+ break
+elif (num == "5"):
+  exit(5)
