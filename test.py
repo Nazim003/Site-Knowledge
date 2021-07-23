@@ -15,5 +15,8 @@ url.rstrip ( )
 header = urllib2.urlopen (url) .info( )
 print(str(header))
 num = input("Type 0 for exit : ")
+num = input("Type 1 for again : ")
 if num == "0":
   exit()
+if num == "1":
+  again()
