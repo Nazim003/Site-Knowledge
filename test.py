@@ -1,6 +1,4 @@
-print("\033[90m")
-print("Hello")
-print("\033[89m")
+
 import os
 import urllib2
 import sys
