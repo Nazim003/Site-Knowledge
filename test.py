@@ -1,5 +1,6 @@
-
-"import os , sys , urllib2"
+import os
+import sys
+import urllib2
 print("\033[92m")
 os.system("figlet site Knowledge ")
 print("\033[94m")
